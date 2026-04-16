@@ -55,9 +55,16 @@
     </nav>
 
     <!-- Header with carousel -->
-    <header class="container">
+    <header id="header" class="container section">
         <div class="row">
-            <div class="col-12 col-xl-6">Boardwalk Games intro text section</div>
+            <div class="col-12 col-xl-6 text-center text-xl-start"> <!-- keep the left aligned text for the desktop view when the carousel is next to it. Let's add a couple of bootstrap classes to our text column to achieve this. Th text-center class will centre the text on all screen sizes, and then the text-xl-start class will align all the text to the left on extra large screens and up. -->
+                <h1 class="display-3">Boardwalk Games</h1>
+                <p class="lead display-6 sub-heading-color">Your next adventure is waiting!</p>
+                <p class="my-4">Welcome to Boardwalk Games, Your Ultimate Gaming Getaway! Escape into the world of board games and
+                    café delights. Whether you're a casual gamer seeking a cosy nook to unwind, a board game enthusiast
+                    ready for your next challenge, or a student gamer looking for a fun, affordable hangout, we've got
+                    you covered.</p>
+            </div>
             <div class="col-12 col-xl-6">Carousel</div>
         </div>
     </header>
