@@ -15,7 +15,9 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* Adjusted to push/ fixed navbar height so body under it */
 }
+
 
 h1,
 h2,
@@ -43,7 +45,7 @@ h2 {
 }
 
 #custom-message-student-discount {    
-    border: 2px solid var(--highlight-color);
+    border: 0px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
     border-radius: 0;
