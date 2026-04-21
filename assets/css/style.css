@@ -40,8 +40,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* Add top padding to create space between sections and also nav bar */
 }
 
 #custom-message-student-discount {    
